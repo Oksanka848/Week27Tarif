@@ -1,17 +1,10 @@
-import React from 'react';
-
-export default function Tarif() {
+export default function Tarif(props) {
   return (
-    <>
-    <div className='card_wrapper'>
-      <div className='card_component'>
-      <div className='card_component__item-1'></div>
-      <div className='card_component__item-2'></div>
-      <div className='card_component__item-3'></div>
+    <div className='tarifcard'>
+      <div className='card__component header'><span className='tarif-name'>Безлимитный</span><p className='tarif-price'>{props.price}</p></div>
+      <div className='card__component item-1'><p className='tarif-cur'>руб</p><div className='tarif-price'>{props.price}</div><span>/мес</span></div>
+      <div className='card__component item-2'><span>До</span><div className='tarif-speed'>{props.speed}</div><span>Мбит/сек</span></div>
+      <div className='card__component footer'><span>Объем ключенного трафика не ограничен</span></div>
       </div>
-        <div className='card_footer'>
-      </div>
-      </div>
-        </>
-  )
+  );
 }
