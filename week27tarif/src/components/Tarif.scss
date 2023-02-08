@@ -36,8 +36,11 @@
         margin: 0;
         margin-bottom: 15px;
         justify-content: space-between;
+        box-shadow: grayscale($color: #0000001e);
         }
-      
+      & item-1 {
+        background-color: ;
+      }
     }
     
 
