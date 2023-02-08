@@ -2,23 +2,26 @@
   {
     "id": "01",
     "price": "300",
-    "speed": "10"
-    
+    "speed": "10",
+    "style": "$blue"
   },
   {
     "id": "02",
     "price": "450",
-    "speed": "50"
+    "speed": "50",
+    "style": "$green"
   },
   {
     "id": "03",
     "price": "550",
-    "speed": "100"
+    "speed": "100",
+    "style": "$red"
   },
   {
     "id": "04",
     "price": "1000",
     "speed": "200",
+    "style": "$black"
     
   }
 ]

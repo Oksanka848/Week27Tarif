@@ -1,8 +1,7 @@
-
 .tarifcard {
-  background: white;
+  
   text-decoration: none;
-  color: #444;
+  color: #adabab;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display: flex;
   flex-direction: column;
@@ -10,6 +9,7 @@
     position: relative;
   top: 0;
   transition: all .1s ease-in;
+  
   &:hover {
     top: -2px;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
@@ -21,26 +21,59 @@
     margin: 0;
     margin: 3%;
 }
+.header span {
+  font-size: 120%;
+  text-align: center;
+ 
+  line-height: 2em;
+  padding: 2%;
+}
+.header .tarif-price{
+  font-size: 120%;
+}
 
+.item-1 .tarif-price{
+  font-size: 250%;
+}
+.item-1 {
+  .tarif-cur{
+    align-self: flex-start;
+    margin-bottom: 5%;
+  }
+  span {
+    align-self: flex-end;
+    margin-bottom: 5%;
+  }
+}
+
+.footer span{
+  font-size: 88%;
+  text-align: center;
+  line-height: 2em;
+  padding: 2%;
+
+}
 .card__component {
-  margin: 10%;
+  margin: 1%;
+  padding: 1%;
     flex: 1;
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-      & header {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-        margin-bottom: 15px;
-        justify-content: space-between;
-        box-shadow: grayscale($color: #0000001e);
-        }
-      & item-1 {
-        background-color: ;
-      }
-    }
-    
+    background: wheat;
+            }
+.item-1 {
+  padding: 15%;
+  
+}
+        /* .header {
+          margin: 10%;
+              display: flex;
+              flex-direction: row;
+              margin: 0;
+              margin-bottom: 15px;
+              justify-content: space-between;
+              box-shadow: grayscale($color: #0000001e);
+              }*/
 
