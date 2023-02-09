@@ -51,6 +51,7 @@
   text-align: center;
   line-height: 2em;
   padding: 2%;
+  color: #838080;
 
 }
 .card__component {
@@ -61,19 +62,36 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background: wheat;
+    background-color: azure;
+    
             }
+
 .item-1 {
   padding: 15%;
   
 }
-        /* .header {
-          margin: 10%;
-              display: flex;
-              flex-direction: row;
-              margin: 0;
-              margin-bottom: 15px;
-              justify-content: space-between;
-              box-shadow: grayscale($color: #0000001e);
-              }*/
 
+.selected {
+  transform: scale(1.07);
+    }
+
+ .blue {
+  background-color:rgb(79, 197, 212);
+  
+}
+
+.green {
+  background-color:rgb(102, 204, 153);
+}
+
+.red {
+  background-color:rgb(255,102,102);
+}
+
+.black {
+  background-color:rgb(47, 47, 47);
+}
+
+.filtr {
+  filter: brightness(115%);
+}
