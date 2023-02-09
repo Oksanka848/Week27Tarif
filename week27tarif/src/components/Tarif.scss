@@ -44,3 +44,8 @@
     }
     
 
+    @for $i from 1 through 2 {
+      tarifcard:nth-child(3n + #{$i}) {
+        background-color: lighten($base-color, $i * 5%);
+      }
+    }
