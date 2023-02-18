@@ -22,7 +22,7 @@ body {
 .App {
   width: 90%;
   max-width: 1240px;
-  margin: 3% auto;
+  margin: 10% auto;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
